@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/yamazakisota/ListApp/DerivedData/ListApp/Build/Products/Debug-iphoneos/ImageRow/ImageRow.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/yamazakisota/ListApp/DerivedData/ListApp/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ImageRow.build/unextended-module.modulemap",
+    }]
+  }]
+}

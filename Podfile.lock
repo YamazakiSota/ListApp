@@ -1,0 +1,21 @@
+PODS:
+  - Eureka (5.2.1)
+  - ImageRow (4.0.0):
+    - Eureka (~> 5.0)
+
+DEPENDENCIES:
+  - Eureka (~> 5.2.1)
+  - ImageRow (~> 4.0)
+
+SPEC REPOS:
+  trunk:
+    - Eureka
+    - ImageRow
+
+SPEC CHECKSUMS:
+  Eureka: c883105488e05bc65539f583246ecf9657cabbfe
+  ImageRow: e65b2e1a33f89062bf2a553a2aad61d975eb7428
+
+PODFILE CHECKSUM: dc80d7a0b1edf781d6f6571ed1adfb49437b4622
+
+COCOAPODS: 1.11.3

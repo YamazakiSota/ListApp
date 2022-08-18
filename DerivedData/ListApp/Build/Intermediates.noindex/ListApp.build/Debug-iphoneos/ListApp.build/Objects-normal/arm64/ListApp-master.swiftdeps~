@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "2c895cf7258331bd78fcb26112e3e3b47c59692778e8fa36b0244e3429dcf56d"
+build_start_time: [1657123274, 372220039]
+build_end_time: [1657123280, 950488090]
+inputs:
+  "/Users/yamazakisota/ListApp/ListApp/AppDelegate.swift": [1657122730, 725539684]
+  "/Users/yamazakisota/ListApp/ListApp/SceneDelegate.swift": [1657122730, 732372283]
+  "/Users/yamazakisota/ListApp/ListApp/ViewController.swift": [1657123270, 611107826]

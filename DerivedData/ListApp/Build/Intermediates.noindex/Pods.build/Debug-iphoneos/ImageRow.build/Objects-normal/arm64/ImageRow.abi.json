@@ -1,0 +1,4014 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Eureka",
+      "printedName": "Eureka",
+      "declKind": "Import",
+      "moduleName": "ImageRow",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ImageCell",
+      "printedName": "ImageCell",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "setup",
+          "printedName": "setup()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8ImageRow0A4CellC5setupyyF",
+          "mangledName": "$s8ImageRow0A4CellC5setupyyF",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "declAttributes": [
+            "Final",
+            "Custom",
+            "Override",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "update",
+          "printedName": "update()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8ImageRow0A4CellC6updateyyF",
+          "mangledName": "$s8ImageRow0A4CellC6updateyyF",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "declAttributes": [
+            "Final",
+            "Custom",
+            "Override",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(style:reuseIdentifier:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageCell",
+              "printedName": "ImageRow.ImageCell",
+              "usr": "s:8ImageRow0A4CellC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CellStyle",
+              "printedName": "UIKit.UITableViewCell.CellStyle",
+              "usr": "c:@E@UITableViewCellStyle"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8ImageRow0A4CellC5style15reuseIdentifierACSo011UITableViewC5StyleV_SSSgtcfc",
+          "mangledName": "$s8ImageRow0A4CellC5style15reuseIdentifierACSo011UITableViewC5StyleV_SSSgtcfc",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithStyle:reuseIdentifier:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "ImageRow.ImageCell?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageCell",
+                  "printedName": "ImageRow.ImageCell",
+                  "usr": "s:8ImageRow0A4CellC"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8ImageRow0A4CellC5coderACSgSo7NSCoderC_tcfc",
+          "mangledName": "$s8ImageRow0A4CellC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:8ImageRow0A4CellC",
+      "mangledName": "$s8ImageRow0A4CellC",
+      "moduleName": "ImageRow",
+      "declAttributes": [
+        "Custom",
+        "StaticInitializeObjCMetadata",
+        "Final",
+        "AccessControl"
+      ],
+      "superclassUsr": "s:6Eureka16PushSelectorCellC",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "Eureka.PushSelectorCell<UIKit.UIImage>",
+        "Eureka.Cell<UIKit.UIImage>",
+        "Eureka.BaseCell",
+        "UIKit.UITableViewCell",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "CellType",
+          "printedName": "CellType",
+          "usr": "s:6Eureka8CellTypeP",
+          "mangledName": "$s6Eureka8CellTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TypedCellType",
+          "printedName": "TypedCellType",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Value",
+              "printedName": "Value",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ]
+            }
+          ],
+          "usr": "s:6Eureka13TypedCellTypeP",
+          "mangledName": "$s6Eureka13TypedCellTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BaseCellType",
+          "printedName": "BaseCellType",
+          "usr": "s:6Eureka12BaseCellTypeP",
+          "mangledName": "$s6Eureka12BaseCellTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Eureka",
+      "printedName": "Eureka",
+      "declKind": "Import",
+      "moduleName": "ImageRow",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "ImageRow"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ImagePickerProtocol",
+      "printedName": "ImagePickerProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "allowEditor",
+          "printedName": "allowEditor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0A14PickerProtocolP11allowEditorSbvp",
+          "mangledName": "$s8ImageRow0A14PickerProtocolP11allowEditorSbvp",
+          "moduleName": "ImageRow",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP11allowEditorSbvg",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP11allowEditorSbvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP11allowEditorSbvs",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP11allowEditorSbvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP11allowEditorSbvM",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP11allowEditorSbvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "imageURL",
+          "printedName": "imageURL",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.URL?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0A14PickerProtocolP8imageURL10Foundation0F0VSgvp",
+          "mangledName": "$s8ImageRow0A14PickerProtocolP8imageURL10Foundation0F0VSgvp",
+          "moduleName": "ImageRow",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.URL?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "URL",
+                      "printedName": "Foundation.URL",
+                      "usr": "s:10Foundation3URLV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP8imageURL10Foundation0F0VSgvg",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP8imageURL10Foundation0F0VSgvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.URL?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "URL",
+                      "printedName": "Foundation.URL",
+                      "usr": "s:10Foundation3URLV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP8imageURL10Foundation0F0VSgvs",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP8imageURL10Foundation0F0VSgvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP8imageURL10Foundation0F0VSgvM",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP8imageURL10Foundation0F0VSgvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "useEditedImage",
+          "printedName": "useEditedImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0A14PickerProtocolP09useEditedA0Sbvp",
+          "mangledName": "$s8ImageRow0A14PickerProtocolP09useEditedA0Sbvp",
+          "moduleName": "ImageRow",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP09useEditedA0Sbvg",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP09useEditedA0Sbvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP09useEditedA0Sbvs",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP09useEditedA0Sbvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP09useEditedA0SbvM",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP09useEditedA0SbvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "userPickerInfo",
+          "printedName": "userPickerInfo",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "InfoKey",
+                      "printedName": "UIKit.UIImagePickerController.InfoKey",
+                      "usr": "c:@T@UIImagePickerControllerInfoKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0A14PickerProtocolP04userC4InfoSDySo07UIImagec10ControllerF3KeyaypGSgvp",
+          "mangledName": "$s8ImageRow0A14PickerProtocolP04userC4InfoSDySo07UIImagec10ControllerF3KeyaypGSgvp",
+          "moduleName": "ImageRow",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "InfoKey",
+                          "printedName": "UIKit.UIImagePickerController.InfoKey",
+                          "usr": "c:@T@UIImagePickerControllerInfoKey"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ProtocolComposition",
+                          "printedName": "Any"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP04userC4InfoSDySo07UIImagec10ControllerF3KeyaypGSgvg",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP04userC4InfoSDySo07UIImagec10ControllerF3KeyaypGSgvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "InfoKey",
+                          "printedName": "UIKit.UIImagePickerController.InfoKey",
+                          "usr": "c:@T@UIImagePickerControllerInfoKey"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ProtocolComposition",
+                          "printedName": "Any"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP04userC4InfoSDySo07UIImagec10ControllerF3KeyaypGSgvs",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP04userC4InfoSDySo07UIImagec10ControllerF3KeyaypGSgvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A14PickerProtocolP04userC4InfoSDySo07UIImagec10ControllerF3KeyaypGSgvM",
+              "mangledName": "$s8ImageRow0A14PickerProtocolP04userC4InfoSDySo07UIImagec10ControllerF3KeyaypGSgvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImagePickerProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImagePickerProtocol>",
+              "protocolReq": true,
+              "implicit": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:8ImageRow0A14PickerProtocolP",
+      "mangledName": "$s8ImageRow0A14PickerProtocolP",
+      "moduleName": "ImageRow",
+      "genericSig": "<τ_0_0 : AnyObject>",
+      "sugared_genericSig": "<Self : AnyObject>",
+      "declAttributes": [
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ImagePickerController",
+      "printedName": "ImagePickerController",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "row",
+          "printedName": "row",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "Eureka.RowOf<UIKit.UIImage>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "RowOf",
+                  "printedName": "Eureka.RowOf<UIKit.UIImage>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:6Eureka5RowOfC"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0A16PickerControllerC3row6Eureka0B2OfCySo7UIImageCGSgvp",
+          "mangledName": "$s8ImageRow0A16PickerControllerC3row6Eureka0B2OfCySo7UIImageCGSgvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Eureka.RowOf<UIKit.UIImage>?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RowOf",
+                      "printedName": "Eureka.RowOf<UIKit.UIImage>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "UIImage",
+                          "printedName": "UIKit.UIImage",
+                          "usr": "c:objc(cs)UIImage"
+                        }
+                      ],
+                      "usr": "s:6Eureka5RowOfC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A16PickerControllerC3row6Eureka0B2OfCySo7UIImageCGSgvg",
+              "mangledName": "$s8ImageRow0A16PickerControllerC3row6Eureka0B2OfCySo7UIImageCGSgvg",
+              "moduleName": "ImageRow",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "Eureka.RowOf<UIKit.UIImage>?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "RowOf",
+                      "printedName": "Eureka.RowOf<UIKit.UIImage>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "UIImage",
+                          "printedName": "UIKit.UIImage",
+                          "usr": "c:objc(cs)UIImage"
+                        }
+                      ],
+                      "usr": "s:6Eureka5RowOfC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A16PickerControllerC3row6Eureka0B2OfCySo7UIImageCGSgvs",
+              "mangledName": "$s8ImageRow0A16PickerControllerC3row6Eureka0B2OfCySo7UIImageCGSgvs",
+              "moduleName": "ImageRow",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A16PickerControllerC3row6Eureka0B2OfCySo7UIImageCGSgvM",
+              "mangledName": "$s8ImageRow0A16PickerControllerC3row6Eureka0B2OfCySo7UIImageCGSgvM",
+              "moduleName": "ImageRow",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "onDismissCallback",
+          "printedName": "onDismissCallback",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "((UIKit.UIViewController) -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(UIKit.UIViewController) -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIViewController",
+                      "printedName": "UIKit.UIViewController",
+                      "usr": "c:objc(cs)UIViewController"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0A16PickerControllerC17onDismissCallbackySo06UIViewD0CcSgvp",
+          "mangledName": "$s8ImageRow0A16PickerControllerC17onDismissCallbackySo06UIViewD0CcSgvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((UIKit.UIViewController) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(UIKit.UIViewController) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "UIViewController",
+                          "printedName": "UIKit.UIViewController",
+                          "usr": "c:objc(cs)UIViewController"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A16PickerControllerC17onDismissCallbackySo06UIViewD0CcSgvg",
+              "mangledName": "$s8ImageRow0A16PickerControllerC17onDismissCallbackySo06UIViewD0CcSgvg",
+              "moduleName": "ImageRow",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((UIKit.UIViewController) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(UIKit.UIViewController) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "UIViewController",
+                          "printedName": "UIKit.UIViewController",
+                          "usr": "c:objc(cs)UIViewController"
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A16PickerControllerC17onDismissCallbackySo06UIViewD0CcSgvs",
+              "mangledName": "$s8ImageRow0A16PickerControllerC17onDismissCallbackySo06UIViewD0CcSgvs",
+              "moduleName": "ImageRow",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0A16PickerControllerC17onDismissCallbackySo06UIViewD0CcSgvM",
+              "mangledName": "$s8ImageRow0A16PickerControllerC17onDismissCallbackySo06UIViewD0CcSgvM",
+              "moduleName": "ImageRow",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "preferredStatusBarStyle",
+          "printedName": "preferredStatusBarStyle",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "UIStatusBarStyle",
+              "printedName": "UIKit.UIStatusBarStyle",
+              "usr": "c:@E@UIStatusBarStyle"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(py)preferredStatusBarStyle",
+          "mangledName": "$s8ImageRow0A16PickerControllerC23preferredStatusBarStyleSo08UIStatusgH0Vvp",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "preferredStatusBarStyle",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "AccessControl",
+            "Override"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIStatusBarStyle",
+                  "printedName": "UIKit.UIStatusBarStyle",
+                  "usr": "c:@E@UIStatusBarStyle"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(im)preferredStatusBarStyle",
+              "mangledName": "$s8ImageRow0A16PickerControllerC23preferredStatusBarStyleSo08UIStatusgH0Vvg",
+              "moduleName": "ImageRow",
+              "overriding": true,
+              "isOpen": true,
+              "objc_name": "preferredStatusBarStyle",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "viewDidLoad",
+          "printedName": "viewDidLoad()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(im)viewDidLoad",
+          "mangledName": "$s8ImageRow0A16PickerControllerC11viewDidLoadyyF",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "viewDidLoad",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "imagePickerController",
+          "printedName": "imagePickerController(_:didFinishPickingMediaWithInfo:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIImagePickerController",
+              "printedName": "UIKit.UIImagePickerController",
+              "usr": "c:objc(cs)UIImagePickerController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "InfoKey",
+                  "printedName": "UIKit.UIImagePickerController.InfoKey",
+                  "usr": "c:@T@UIImagePickerControllerInfoKey"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(im)imagePickerController:didFinishPickingMediaWithInfo:",
+          "mangledName": "$s8ImageRow0A16PickerControllerC05imagecD0_29didFinishPickingMediaWithInfoySo07UIImagecD0C_SDySo0lcdK3KeyaypGtF",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "objc_name": "imagePickerController:didFinishPickingMediaWithInfo:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "imagePickerControllerDidCancel",
+          "printedName": "imagePickerControllerDidCancel(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIImagePickerController",
+              "printedName": "UIKit.UIImagePickerController",
+              "usr": "c:objc(cs)UIImagePickerController"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(im)imagePickerControllerDidCancel:",
+          "mangledName": "$s8ImageRow0A16PickerControllerC05imagecD9DidCancelyySo07UIImagecD0CF",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "objc_name": "imagePickerControllerDidCancel:",
+          "declAttributes": [
+            "ObjC",
+            "Custom",
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(navigationBarClass:toolbarClass:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImagePickerController",
+              "printedName": "ImageRow.ImagePickerController",
+              "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "AnyObject.Type?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ExistentialMetatype",
+                  "printedName": "AnyObject.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "AnyObject"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "AnyObject.Type?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ExistentialMetatype",
+                  "printedName": "AnyObject.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "AnyObject"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(im)initWithNavigationBarClass:toolbarClass:",
+          "mangledName": "$s8ImageRow0A16PickerControllerC18navigationBarClass07toolbarG0ACyXlXpSg_AFtcfc",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "implicit": true,
+          "intro_iOS": "5.0",
+          "objc_name": "initWithNavigationBarClass:toolbarClass:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override",
+            "Available"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rootViewController:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImagePickerController",
+              "printedName": "ImageRow.ImagePickerController",
+              "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIViewController",
+              "printedName": "UIKit.UIViewController",
+              "usr": "c:objc(cs)UIViewController"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(im)initWithRootViewController:",
+          "mangledName": "$s8ImageRow0A16PickerControllerC08rootViewD0ACSo06UIViewD0C_tcfc",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithRootViewController:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(nibName:bundle:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImagePickerController",
+              "printedName": "ImageRow.ImagePickerController",
+              "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.Bundle?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bundle",
+                  "printedName": "Foundation.Bundle",
+                  "usr": "c:objc(cs)NSBundle"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(im)initWithNibName:bundle:",
+          "mangledName": "$s8ImageRow0A16PickerControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithNibName:bundle:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "ImageRow.ImagePickerController?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImagePickerController",
+                  "printedName": "ImageRow.ImagePickerController",
+                  "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController(im)initWithCoder:",
+          "mangledName": "$s8ImageRow0A16PickerControllerC5coderACSgSo7NSCoderC_tcfc",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "implicit": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@ImageRow@objc(cs)ImagePickerController",
+      "mangledName": "$s8ImageRow0A16PickerControllerC",
+      "moduleName": "ImageRow",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "AccessControl",
+        "RawDocComment",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UIImagePickerController",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UIImagePickerController",
+        "UIKit.UINavigationController",
+        "UIKit.UIViewController",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "TypedRowControllerType",
+          "printedName": "TypedRowControllerType",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RowValue",
+              "printedName": "RowValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ]
+            }
+          ],
+          "usr": "s:6Eureka22TypedRowControllerTypeP",
+          "mangledName": "$s6Eureka22TypedRowControllerTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RowControllerType",
+          "printedName": "RowControllerType",
+          "usr": "s:6Eureka17RowControllerTypeP",
+          "mangledName": "$s6Eureka17RowControllerTypeP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Eureka",
+      "printedName": "Eureka",
+      "declKind": "Import",
+      "moduleName": "ImageRow",
+      "declAttributes": [
+        "RawDocComment"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "ImageRow"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ImageRowSourceTypes",
+      "printedName": "ImageRowSourceTypes",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "rawValue",
+          "printedName": "rawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0aB11SourceTypesV8rawValueSivp",
+          "mangledName": "$s8ImageRow0aB11SourceTypesV8rawValueSivp",
+          "moduleName": "ImageRow",
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0aB11SourceTypesV8rawValueSivg",
+              "mangledName": "$s8ImageRow0aB11SourceTypesV8rawValueSivg",
+              "moduleName": "ImageRow",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "imagePickerControllerSourceTypeRawValue",
+          "printedName": "imagePickerControllerSourceTypeRawValue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0aB11SourceTypesV021imagePickerControllerC12TypeRawValueSivp",
+          "mangledName": "$s8ImageRow0aB11SourceTypesV021imagePickerControllerC12TypeRawValueSivp",
+          "moduleName": "ImageRow",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0aB11SourceTypesV021imagePickerControllerC12TypeRawValueSivg",
+              "mangledName": "$s8ImageRow0aB11SourceTypesV021imagePickerControllerC12TypeRawValueSivg",
+              "moduleName": "ImageRow",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(rawValue:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRowSourceTypes",
+              "printedName": "ImageRow.ImageRowSourceTypes",
+              "usr": "s:8ImageRow0aB11SourceTypesV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8ImageRow0aB11SourceTypesV8rawValueACSi_tcfc",
+          "mangledName": "$s8ImageRow0aB11SourceTypesV8rawValueACSi_tcfc",
+          "moduleName": "ImageRow",
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRowSourceTypes",
+              "printedName": "ImageRow.ImageRowSourceTypes",
+              "usr": "s:8ImageRow0aB11SourceTypesV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SourceType",
+              "printedName": "UIKit.UIImagePickerController.SourceType",
+              "usr": "c:@E@UIImagePickerControllerSourceType"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8ImageRow0aB11SourceTypesVyACSo023UIImagePickerControllerC4TypeVcfc",
+          "mangledName": "$s8ImageRow0aB11SourceTypesVyACSo023UIImagePickerControllerC4TypeVcfc",
+          "moduleName": "ImageRow",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "PhotoLibrary",
+          "printedName": "PhotoLibrary",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRowSourceTypes",
+              "printedName": "ImageRow.ImageRowSourceTypes",
+              "usr": "s:8ImageRow0aB11SourceTypesV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0aB11SourceTypesV12PhotoLibraryACvpZ",
+          "mangledName": "$s8ImageRow0aB11SourceTypesV12PhotoLibraryACvpZ",
+          "moduleName": "ImageRow",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0aB11SourceTypesV12PhotoLibraryACvgZ",
+              "mangledName": "$s8ImageRow0aB11SourceTypesV12PhotoLibraryACvgZ",
+              "moduleName": "ImageRow",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "Camera",
+          "printedName": "Camera",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRowSourceTypes",
+              "printedName": "ImageRow.ImageRowSourceTypes",
+              "usr": "s:8ImageRow0aB11SourceTypesV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0aB11SourceTypesV6CameraACvpZ",
+          "mangledName": "$s8ImageRow0aB11SourceTypesV6CameraACvpZ",
+          "moduleName": "ImageRow",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0aB11SourceTypesV6CameraACvgZ",
+              "mangledName": "$s8ImageRow0aB11SourceTypesV6CameraACvgZ",
+              "moduleName": "ImageRow",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "SavedPhotosAlbum",
+          "printedName": "SavedPhotosAlbum",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRowSourceTypes",
+              "printedName": "ImageRow.ImageRowSourceTypes",
+              "usr": "s:8ImageRow0aB11SourceTypesV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0aB11SourceTypesV16SavedPhotosAlbumACvpZ",
+          "mangledName": "$s8ImageRow0aB11SourceTypesV16SavedPhotosAlbumACvpZ",
+          "moduleName": "ImageRow",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0aB11SourceTypesV16SavedPhotosAlbumACvgZ",
+              "mangledName": "$s8ImageRow0aB11SourceTypesV16SavedPhotosAlbumACvgZ",
+              "moduleName": "ImageRow",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "All",
+          "printedName": "All",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRowSourceTypes",
+              "printedName": "ImageRow.ImageRowSourceTypes",
+              "usr": "s:8ImageRow0aB11SourceTypesV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0aB11SourceTypesV3AllACvpZ",
+          "mangledName": "$s8ImageRow0aB11SourceTypesV3AllACvpZ",
+          "moduleName": "ImageRow",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0aB11SourceTypesV3AllACvgZ",
+              "mangledName": "$s8ImageRow0aB11SourceTypesV3AllACvgZ",
+              "moduleName": "ImageRow",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "localizedString",
+          "printedName": "localizedString",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0aB11SourceTypesV15localizedStringSSvp",
+          "mangledName": "$s8ImageRow0aB11SourceTypesV15localizedStringSSvp",
+          "moduleName": "ImageRow",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0aB11SourceTypesV15localizedStringSSvg",
+              "mangledName": "$s8ImageRow0aB11SourceTypesV15localizedStringSSvg",
+              "moduleName": "ImageRow",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:8ImageRow0aB11SourceTypesV",
+      "mangledName": "$s8ImageRow0aB11SourceTypesV",
+      "moduleName": "ImageRow",
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "OptionSet",
+          "printedName": "OptionSet",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s9OptionSetP",
+          "mangledName": "$ss9OptionSetP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SetAlgebra",
+          "printedName": "SetAlgebra",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s10SetAlgebraP",
+          "mangledName": "$ss10SetAlgebraP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByArrayLiteral",
+          "printedName": "ExpressibleByArrayLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ArrayLiteralElement",
+              "printedName": "ArrayLiteralElement",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s25ExpressibleByArrayLiteralP",
+          "mangledName": "$ss25ExpressibleByArrayLiteralP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ImageClearAction",
+      "printedName": "ImageClearAction",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "no",
+          "printedName": "no",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(ImageRow.ImageClearAction.Type) -> ImageRow.ImageClearAction",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageClearAction",
+                  "printedName": "ImageRow.ImageClearAction",
+                  "usr": "s:8ImageRow0A11ClearActionO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "ImageRow.ImageClearAction.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ImageClearAction",
+                      "printedName": "ImageRow.ImageClearAction",
+                      "usr": "s:8ImageRow0A11ClearActionO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:8ImageRow0A11ClearActionO2noyA2CmF",
+          "mangledName": "$s8ImageRow0A11ClearActionO2noyA2CmF",
+          "moduleName": "ImageRow",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "yes",
+          "printedName": "yes",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(ImageRow.ImageClearAction.Type) -> (UIKit.UIAlertAction.Style) -> ImageRow.ImageClearAction",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(UIKit.UIAlertAction.Style) -> ImageRow.ImageClearAction",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ImageClearAction",
+                      "printedName": "ImageRow.ImageClearAction",
+                      "usr": "s:8ImageRow0A11ClearActionO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(style: UIKit.UIAlertAction.Style)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Style",
+                          "printedName": "UIKit.UIAlertAction.Style",
+                          "usr": "c:@E@UIAlertActionStyle"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "ImageRow.ImageClearAction.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ImageClearAction",
+                      "printedName": "ImageRow.ImageClearAction",
+                      "usr": "s:8ImageRow0A11ClearActionO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:8ImageRow0A11ClearActionO3yesyACSo07UIAlertD5StyleV_tcACmF",
+          "mangledName": "$s8ImageRow0A11ClearActionO3yesyACSo07UIAlertD5StyleV_tcACmF",
+          "moduleName": "ImageRow",
+          "fixedbinaryorder": 1
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:8ImageRow0A11ClearActionO",
+      "mangledName": "$s8ImageRow0A11ClearActionO",
+      "moduleName": "ImageRow",
+      "declAttributes": [
+        "AccessControl"
+      ],
+      "isEnumExhaustive": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ImageRowProtocol",
+      "printedName": "ImageRowProtocol",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "placeholderImage",
+          "printedName": "placeholderImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImage?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow0aB8ProtocolP011placeholderA0So7UIImageCSgvp",
+          "mangledName": "$s8ImageRow0aB8ProtocolP011placeholderA0So7UIImageCSgvp",
+          "moduleName": "ImageRow",
+          "protocolReq": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIImage?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow0aB8ProtocolP011placeholderA0So7UIImageCSgvg",
+              "mangledName": "$s8ImageRow0aB8ProtocolP011placeholderA0So7UIImageCSgvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : ImageRow.ImageRowProtocol>",
+              "sugared_genericSig": "<Self where Self : ImageRow.ImageRowProtocol>",
+              "protocolReq": true,
+              "reqNewWitnessTableEntry": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:8ImageRow0aB8ProtocolP",
+      "mangledName": "$s8ImageRow0aB8ProtocolP",
+      "moduleName": "ImageRow",
+      "declAttributes": [
+        "AccessControl"
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "_ImageRow",
+      "printedName": "_ImageRow",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "presentationMode",
+          "printedName": "presentationMode",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Eureka.PresentationMode<ImageRow.ImagePickerController>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PresentationMode",
+                  "printedName": "Eureka.PresentationMode<ImageRow.ImagePickerController>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ImagePickerController",
+                      "printedName": "ImageRow.ImagePickerController",
+                      "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                    }
+                  ],
+                  "usr": "s:6Eureka16PresentationModeO"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C16presentationMode6Eureka012PresentationD0OyAA0A16PickerControllerCGSgvp",
+          "mangledName": "$s8ImageRow01_aB0C16presentationMode6Eureka012PresentationD0OyAA0A16PickerControllerCGSgvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Eureka.PresentationMode<ImageRow.ImagePickerController>?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PresentationMode",
+                      "printedName": "Eureka.PresentationMode<ImageRow.ImagePickerController>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ImagePickerController",
+                          "printedName": "ImageRow.ImagePickerController",
+                          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                        }
+                      ],
+                      "usr": "s:6Eureka16PresentationModeO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C16presentationMode6Eureka012PresentationD0OyAA0A16PickerControllerCGSgvg",
+              "mangledName": "$s8ImageRow01_aB0C16presentationMode6Eureka012PresentationD0OyAA0A16PickerControllerCGSgvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Eureka.PresentationMode<ImageRow.ImagePickerController>?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PresentationMode",
+                      "printedName": "Eureka.PresentationMode<ImageRow.ImagePickerController>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ImagePickerController",
+                          "printedName": "ImageRow.ImagePickerController",
+                          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                        }
+                      ],
+                      "usr": "s:6Eureka16PresentationModeO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C16presentationMode6Eureka012PresentationD0OyAA0A16PickerControllerCGSgvs",
+              "mangledName": "$s8ImageRow01_aB0C16presentationMode6Eureka012PresentationD0OyAA0A16PickerControllerCGSgvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C16presentationMode6Eureka012PresentationD0OyAA0A16PickerControllerCGSgvM",
+              "mangledName": "$s8ImageRow01_aB0C16presentationMode6Eureka012PresentationD0OyAA0A16PickerControllerCGSgvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "onPresentCallback",
+          "printedName": "onPresentCallback",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "((Eureka.FormViewController, ImageRow.ImagePickerController) -> ())?",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Eureka.FormViewController, ImageRow.ImagePickerController) -> ()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Tuple",
+                      "printedName": "(Eureka.FormViewController, ImageRow.ImagePickerController)",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "FormViewController",
+                          "printedName": "Eureka.FormViewController",
+                          "usr": "c:@M@Eureka@objc(cs)FormViewController"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ImagePickerController",
+                          "printedName": "ImageRow.ImagePickerController",
+                          "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C17onPresentCallbacky6Eureka18FormViewControllerC_AA0a6PickerI0CtcSgvp",
+          "mangledName": "$s8ImageRow01_aB0C17onPresentCallbacky6Eureka18FormViewControllerC_AA0a6PickerI0CtcSgvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((Eureka.FormViewController, ImageRow.ImagePickerController) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Eureka.FormViewController, ImageRow.ImagePickerController) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(Eureka.FormViewController, ImageRow.ImagePickerController)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "FormViewController",
+                              "printedName": "Eureka.FormViewController",
+                              "usr": "c:@M@Eureka@objc(cs)FormViewController"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "ImagePickerController",
+                              "printedName": "ImageRow.ImagePickerController",
+                              "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C17onPresentCallbacky6Eureka18FormViewControllerC_AA0a6PickerI0CtcSgvg",
+              "mangledName": "$s8ImageRow01_aB0C17onPresentCallbacky6Eureka18FormViewControllerC_AA0a6PickerI0CtcSgvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "((Eureka.FormViewController, ImageRow.ImagePickerController) -> ())?",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Eureka.FormViewController, ImageRow.ImagePickerController) -> ()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(Eureka.FormViewController, ImageRow.ImagePickerController)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "FormViewController",
+                              "printedName": "Eureka.FormViewController",
+                              "usr": "c:@M@Eureka@objc(cs)FormViewController"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "ImagePickerController",
+                              "printedName": "ImageRow.ImagePickerController",
+                              "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C17onPresentCallbacky6Eureka18FormViewControllerC_AA0a6PickerI0CtcSgvs",
+              "mangledName": "$s8ImageRow01_aB0C17onPresentCallbacky6Eureka18FormViewControllerC_AA0a6PickerI0CtcSgvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C17onPresentCallbacky6Eureka18FormViewControllerC_AA0a6PickerI0CtcSgvM",
+              "mangledName": "$s8ImageRow01_aB0C17onPresentCallbacky6Eureka18FormViewControllerC_AA0a6PickerI0CtcSgvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "sourceTypes",
+          "printedName": "sourceTypes",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRowSourceTypes",
+              "printedName": "ImageRow.ImageRowSourceTypes",
+              "usr": "s:8ImageRow0aB11SourceTypesV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C11sourceTypesAA0ab6SourceD0Vvp",
+          "mangledName": "$s8ImageRow01_aB0C11sourceTypesAA0ab6SourceD0Vvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11sourceTypesAA0ab6SourceD0Vvg",
+              "mangledName": "$s8ImageRow01_aB0C11sourceTypesAA0ab6SourceD0Vvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageRowSourceTypes",
+                  "printedName": "ImageRow.ImageRowSourceTypes",
+                  "usr": "s:8ImageRow0aB11SourceTypesV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11sourceTypesAA0ab6SourceD0Vvs",
+              "mangledName": "$s8ImageRow01_aB0C11sourceTypesAA0ab6SourceD0Vvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11sourceTypesAA0ab6SourceD0VvM",
+              "mangledName": "$s8ImageRow01_aB0C11sourceTypesAA0ab6SourceD0VvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "imageURL",
+          "printedName": "imageURL",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.URL?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "URL",
+                  "printedName": "Foundation.URL",
+                  "usr": "s:10Foundation3URLV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C8imageURL10Foundation0D0VSgvp",
+          "mangledName": "$s8ImageRow01_aB0C8imageURL10Foundation0D0VSgvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.URL?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "URL",
+                      "printedName": "Foundation.URL",
+                      "usr": "s:10Foundation3URLV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C8imageURL10Foundation0D0VSgvg",
+              "mangledName": "$s8ImageRow01_aB0C8imageURL10Foundation0D0VSgvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.URL?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "URL",
+                      "printedName": "Foundation.URL",
+                      "usr": "s:10Foundation3URLV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C8imageURL10Foundation0D0VSgvs",
+              "mangledName": "$s8ImageRow01_aB0C8imageURL10Foundation0D0VSgvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C8imageURL10Foundation0D0VSgvM",
+              "mangledName": "$s8ImageRow01_aB0C8imageURL10Foundation0D0VSgvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "clearAction",
+          "printedName": "clearAction",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageClearAction",
+              "printedName": "ImageRow.ImageClearAction",
+              "usr": "s:8ImageRow0A11ClearActionO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C11clearActionAA0a5ClearD0Ovp",
+          "mangledName": "$s8ImageRow01_aB0C11clearActionAA0a5ClearD0Ovp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 4,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageClearAction",
+                  "printedName": "ImageRow.ImageClearAction",
+                  "usr": "s:8ImageRow0A11ClearActionO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11clearActionAA0a5ClearD0Ovg",
+              "mangledName": "$s8ImageRow01_aB0C11clearActionAA0a5ClearD0Ovg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageClearAction",
+                  "printedName": "ImageRow.ImageClearAction",
+                  "usr": "s:8ImageRow0A11ClearActionO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11clearActionAA0a5ClearD0Ovs",
+              "mangledName": "$s8ImageRow01_aB0C11clearActionAA0a5ClearD0Ovs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11clearActionAA0a5ClearD0OvM",
+              "mangledName": "$s8ImageRow01_aB0C11clearActionAA0a5ClearD0OvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "placeholderImage",
+          "printedName": "placeholderImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIImage?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIImage",
+                  "printedName": "UIKit.UIImage",
+                  "usr": "c:objc(cs)UIImage"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C011placeholderA0So7UIImageCSgvp",
+          "mangledName": "$s8ImageRow01_aB0C011placeholderA0So7UIImageCSgvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 5,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIImage?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C011placeholderA0So7UIImageCSgvg",
+              "mangledName": "$s8ImageRow01_aB0C011placeholderA0So7UIImageCSgvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "UIKit.UIImage?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C011placeholderA0So7UIImageCSgvs",
+              "mangledName": "$s8ImageRow01_aB0C011placeholderA0So7UIImageCSgvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C011placeholderA0So7UIImageCSgvM",
+              "mangledName": "$s8ImageRow01_aB0C011placeholderA0So7UIImageCSgvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "userPickerInfo",
+          "printedName": "userPickerInfo",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "InfoKey",
+                      "printedName": "UIKit.UIImagePickerController.InfoKey",
+                      "usr": "c:@T@UIImagePickerControllerInfoKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C14userPickerInfoSDySo07UIImaged10ControllerE3KeyaypGSgvp",
+          "mangledName": "$s8ImageRow01_aB0C14userPickerInfoSDySo07UIImaged10ControllerE3KeyaypGSgvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 6,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "InfoKey",
+                          "printedName": "UIKit.UIImagePickerController.InfoKey",
+                          "usr": "c:@T@UIImagePickerControllerInfoKey"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ProtocolComposition",
+                          "printedName": "Any"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C14userPickerInfoSDySo07UIImaged10ControllerE3KeyaypGSgvg",
+              "mangledName": "$s8ImageRow01_aB0C14userPickerInfoSDySo07UIImaged10ControllerE3KeyaypGSgvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "InfoKey",
+                          "printedName": "UIKit.UIImagePickerController.InfoKey",
+                          "usr": "c:@T@UIImagePickerControllerInfoKey"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ProtocolComposition",
+                          "printedName": "Any"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C14userPickerInfoSDySo07UIImaged10ControllerE3KeyaypGSgvs",
+              "mangledName": "$s8ImageRow01_aB0C14userPickerInfoSDySo07UIImaged10ControllerE3KeyaypGSgvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C14userPickerInfoSDySo07UIImaged10ControllerE3KeyaypGSgvM",
+              "mangledName": "$s8ImageRow01_aB0C14userPickerInfoSDySo07UIImaged10ControllerE3KeyaypGSgvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "allowEditor",
+          "printedName": "allowEditor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C11allowEditorSbvp",
+          "mangledName": "$s8ImageRow01_aB0C11allowEditorSbvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 7,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11allowEditorSbvg",
+              "mangledName": "$s8ImageRow01_aB0C11allowEditorSbvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11allowEditorSbvs",
+              "mangledName": "$s8ImageRow01_aB0C11allowEditorSbvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C11allowEditorSbvM",
+              "mangledName": "$s8ImageRow01_aB0C11allowEditorSbvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "useEditedImage",
+          "printedName": "useEditedImage",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C09useEditedA0Sbvp",
+          "mangledName": "$s8ImageRow01_aB0C09useEditedA0Sbvp",
+          "moduleName": "ImageRow",
+          "isOpen": true,
+          "declAttributes": [
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 8,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C09useEditedA0Sbvg",
+              "mangledName": "$s8ImageRow01_aB0C09useEditedA0Sbvg",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C09useEditedA0Sbvs",
+              "mangledName": "$s8ImageRow01_aB0C09useEditedA0Sbvs",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:8ImageRow01_aB0C09useEditedA0SbvM",
+              "mangledName": "$s8ImageRow01_aB0C09useEditedA0SbvM",
+              "moduleName": "ImageRow",
+              "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+              "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+              "implicit": true,
+              "isOpen": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "_sourceType",
+          "printedName": "_sourceType",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SourceType",
+              "printedName": "UIKit.UIImagePickerController.SourceType",
+              "usr": "c:@E@UIImagePickerControllerSourceType"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:8ImageRow01_aB0C11_sourceType33_297FBBB5B144B9B946250A1576A66304LLSo029UIImagePickerControllerSourceD0Vvp",
+          "mangledName": "$s8ImageRow01_aB0C11_sourceType33_297FBBB5B144B9B946250A1576A66304LLSo029UIImagePickerControllerSourceD0Vvp",
+          "moduleName": "ImageRow",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage",
+            "AccessControl"
+          ],
+          "fixedbinaryorder": 9,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(tag:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "_ImageRow",
+              "printedName": "ImageRow._ImageRow<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:8ImageRow01_aB0C"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8ImageRow01_aB0C3tagACyxGSSSg_tcfc",
+          "mangledName": "$s8ImageRow01_aB0C3tagACyxGSSSg_tcfc",
+          "moduleName": "ImageRow",
+          "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+          "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+          "overriding": true,
+          "declAttributes": [
+            "Required",
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "displayImagePickerController",
+          "printedName": "displayImagePickerController(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SourceType",
+              "printedName": "UIKit.UIImagePickerController.SourceType",
+              "usr": "c:@E@UIImagePickerControllerSourceType"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8ImageRow01_aB0C07displayA16PickerControlleryySo07UIImagedE10SourceTypeVF",
+          "mangledName": "$s8ImageRow01_aB0C07displayA16PickerControlleryySo07UIImagedE10SourceTypeVF",
+          "moduleName": "ImageRow",
+          "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+          "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+          "isOpen": true,
+          "declAttributes": [
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "customDidSelect",
+          "printedName": "customDidSelect()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8ImageRow01_aB0C15customDidSelectyyF",
+          "mangledName": "$s8ImageRow01_aB0C15customDidSelectyyF",
+          "moduleName": "ImageRow",
+          "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+          "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+          "overriding": true,
+          "isOpen": true,
+          "declAttributes": [
+            "Override",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "selectSource",
+          "printedName": "selectSource()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8ImageRow01_aB0C12selectSourceyyF",
+          "mangledName": "$s8ImageRow01_aB0C12selectSourceyyF",
+          "moduleName": "ImageRow",
+          "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+          "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+          "isOpen": true,
+          "declAttributes": [
+            "AccessControl"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "prepare",
+          "printedName": "prepare(for:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIStoryboardSegue",
+              "printedName": "UIKit.UIStoryboardSegue",
+              "usr": "c:objc(cs)UIStoryboardSegue"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8ImageRow01_aB0C7prepare3forySo17UIStoryboardSegueC_tF",
+          "mangledName": "$s8ImageRow01_aB0C7prepare3forySo17UIStoryboardSegueC_tF",
+          "moduleName": "ImageRow",
+          "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+          "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+          "overriding": true,
+          "isOpen": true,
+          "declAttributes": [
+            "Override",
+            "AccessControl",
+            "RawDocComment"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createOptionForAlertController",
+          "printedName": "createOptionForAlertController(_:sourceType:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIAlertController",
+              "printedName": "UIKit.UIAlertController",
+              "usr": "c:objc(cs)UIAlertController"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRowSourceTypes",
+              "printedName": "ImageRow.ImageRowSourceTypes",
+              "usr": "s:8ImageRow0aB11SourceTypesV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8ImageRow01_aB0C30createOptionForAlertController_10sourceTypeySo07UIAlertG0C_AA0aB11SourceTypesVtF",
+          "mangledName": "$s8ImageRow01_aB0C30createOptionForAlertController_10sourceTypeySo07UIAlertG0C_AA0aB11SourceTypesVtF",
+          "moduleName": "ImageRow",
+          "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+          "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "createOptionsForAlertController",
+          "printedName": "createOptionsForAlertController(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "UIAlertController",
+              "printedName": "UIKit.UIAlertController",
+              "usr": "c:objc(cs)UIAlertController"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:8ImageRow01_aB0C31createOptionsForAlertControlleryySo07UIAlertG0CF",
+          "mangledName": "$s8ImageRow01_aB0C31createOptionsForAlertControlleryySo07UIAlertG0CF",
+          "moduleName": "ImageRow",
+          "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+          "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+          "isOpen": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:8ImageRow01_aB0C",
+      "mangledName": "$s8ImageRow01_aB0C",
+      "moduleName": "ImageRow",
+      "genericSig": "<τ_0_0 where τ_0_0 : Eureka.BaseCell, τ_0_0 : Eureka.CellType, τ_0_0.Value == UIKit.UIImage>",
+      "sugared_genericSig": "<Cell where Cell : Eureka.BaseCell, Cell : Eureka.CellType, Cell.Value == UIKit.UIImage>",
+      "isOpen": true,
+      "declAttributes": [
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "superclassUsr": "s:6Eureka10OptionsRowC",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "Eureka.OptionsRow<τ_0_0>",
+        "Eureka.Row<τ_0_0>",
+        "Eureka.RowOf<τ_0_0.Value>",
+        "Eureka.BaseRow"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "PresenterRowType",
+          "printedName": "PresenterRowType",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "PresentedControllerType",
+              "printedName": "PresentedControllerType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImagePickerController",
+                  "printedName": "ImageRow.ImagePickerController",
+                  "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                }
+              ]
+            }
+          ],
+          "usr": "s:6Eureka16PresenterRowTypeP",
+          "mangledName": "$s6Eureka16PresenterRowTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ImageRowProtocol",
+          "printedName": "ImageRowProtocol",
+          "usr": "s:8ImageRow0aB8ProtocolP",
+          "mangledName": "$s8ImageRow0aB8ProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ImagePickerProtocol",
+          "printedName": "ImagePickerProtocol",
+          "usr": "s:8ImageRow0A14PickerProtocolP",
+          "mangledName": "$s8ImageRow0A14PickerProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "NoValueDisplayTextConformance",
+          "printedName": "NoValueDisplayTextConformance",
+          "usr": "s:6Eureka29NoValueDisplayTextConformanceP",
+          "mangledName": "$s6Eureka29NoValueDisplayTextConformanceP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "OptionsProviderRow",
+          "printedName": "OptionsProviderRow",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OptionsProviderType",
+              "printedName": "OptionsProviderType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OptionsProvider",
+                  "printedName": "Eureka.OptionsProvider<τ_0_0.Value>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DependentMember",
+                      "printedName": "τ_0_0.Value"
+                    }
+                  ],
+                  "usr": "s:6Eureka15OptionsProviderO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:6Eureka18OptionsProviderRowP",
+          "mangledName": "$s6Eureka18OptionsProviderRowP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TypedRowType",
+          "printedName": "TypedRowType",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Cell",
+              "printedName": "Cell",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            }
+          ],
+          "usr": "s:6Eureka12TypedRowTypeP",
+          "mangledName": "$s6Eureka12TypedRowTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BaseRowType",
+          "printedName": "BaseRowType",
+          "usr": "s:6Eureka11BaseRowTypeP",
+          "mangledName": "$s6Eureka11BaseRowTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Taggable",
+          "printedName": "Taggable",
+          "usr": "s:6Eureka8TaggableP",
+          "mangledName": "$s6Eureka8TaggableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hidable",
+          "printedName": "Hidable",
+          "usr": "s:6Eureka7HidableP",
+          "mangledName": "$s6Eureka7HidableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Disableable",
+          "printedName": "Disableable",
+          "usr": "s:6Eureka11DisableableP",
+          "mangledName": "$s6Eureka11DisableableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "ImageRow",
+      "printedName": "ImageRow",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(tag:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImageRow",
+              "printedName": "ImageRow.ImageRow",
+              "usr": "s:8ImageRowAAC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:8ImageRowAAC3tagABSSSg_tcfc",
+          "mangledName": "$s8ImageRowAAC3tagABSSSg_tcfc",
+          "moduleName": "ImageRow",
+          "overriding": true,
+          "declAttributes": [
+            "Required",
+            "AccessControl"
+          ],
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:8ImageRowAAC",
+      "mangledName": "$s8ImageRowAAC",
+      "moduleName": "ImageRow",
+      "declAttributes": [
+        "Final",
+        "AccessControl",
+        "RawDocComment"
+      ],
+      "superclassUsr": "s:8ImageRow01_aB0C",
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "ImageRow._ImageRow<ImageRow.ImageCell>",
+        "Eureka.OptionsRow<ImageRow.ImageCell>",
+        "Eureka.Row<ImageRow.ImageCell>",
+        "Eureka.RowOf<UIKit.UIImage>",
+        "Eureka.BaseRow"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "RowType",
+          "printedName": "RowType",
+          "usr": "s:6Eureka7RowTypeP",
+          "mangledName": "$s6Eureka7RowTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "PresenterRowType",
+          "printedName": "PresenterRowType",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "PresentedControllerType",
+              "printedName": "PresentedControllerType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImagePickerController",
+                  "printedName": "ImageRow.ImagePickerController",
+                  "usr": "c:@M@ImageRow@objc(cs)ImagePickerController"
+                }
+              ]
+            }
+          ],
+          "usr": "s:6Eureka16PresenterRowTypeP",
+          "mangledName": "$s6Eureka16PresenterRowTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ImageRowProtocol",
+          "printedName": "ImageRowProtocol",
+          "usr": "s:8ImageRow0aB8ProtocolP",
+          "mangledName": "$s8ImageRow0aB8ProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ImagePickerProtocol",
+          "printedName": "ImagePickerProtocol",
+          "usr": "s:8ImageRow0A14PickerProtocolP",
+          "mangledName": "$s8ImageRow0A14PickerProtocolP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "NoValueDisplayTextConformance",
+          "printedName": "NoValueDisplayTextConformance",
+          "usr": "s:6Eureka29NoValueDisplayTextConformanceP",
+          "mangledName": "$s6Eureka29NoValueDisplayTextConformanceP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "OptionsProviderRow",
+          "printedName": "OptionsProviderRow",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OptionsProviderType",
+              "printedName": "OptionsProviderType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "OptionsProvider",
+                  "printedName": "Eureka.OptionsProvider<UIKit.UIImage>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "UIImage",
+                      "printedName": "UIKit.UIImage",
+                      "usr": "c:objc(cs)UIImage"
+                    }
+                  ],
+                  "usr": "s:6Eureka15OptionsProviderO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:6Eureka18OptionsProviderRowP",
+          "mangledName": "$s6Eureka18OptionsProviderRowP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TypedRowType",
+          "printedName": "TypedRowType",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Cell",
+              "printedName": "Cell",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImageCell",
+                  "printedName": "ImageRow.ImageCell",
+                  "usr": "s:8ImageRow0A4CellC"
+                }
+              ]
+            }
+          ],
+          "usr": "s:6Eureka12TypedRowTypeP",
+          "mangledName": "$s6Eureka12TypedRowTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BaseRowType",
+          "printedName": "BaseRowType",
+          "usr": "s:6Eureka11BaseRowTypeP",
+          "mangledName": "$s6Eureka11BaseRowTypeP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Taggable",
+          "printedName": "Taggable",
+          "usr": "s:6Eureka8TaggableP",
+          "mangledName": "$s6Eureka8TaggableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hidable",
+          "printedName": "Hidable",
+          "usr": "s:6Eureka7HidableP",
+          "mangledName": "$s6Eureka7HidableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Disableable",
+          "printedName": "Disableable",
+          "usr": "s:6Eureka11DisableableP",
+          "mangledName": "$s6Eureka11DisableableP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

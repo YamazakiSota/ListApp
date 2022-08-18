@@ -1,0 +1,27 @@
+Target dependency graph (11 targets)
+Eureka in Pods, no dependencies
+ImageRow in Pods, depends on:
+Eureka in Pods (explicit)
+Pods-ListApp in Pods, depends on:
+Eureka in Pods (explicit)
+ImageRow in Pods (explicit)
+ListApp in ListApp, depends on:
+Pods-ListApp in Pods (implicit dependency via file 'Pods_ListApp.framework' in build phase 'Link Binary')
+Eureka in Pods (implicit dependency via options '-framework Eureka' in build setting 'OTHER_LDFLAGS')
+ImageRow in Pods (implicit dependency via options '-framework ImageRow' in build setting 'OTHER_LDFLAGS')
+Eureka in Pods, no dependencies
+ImageRow in Pods, depends on:
+Eureka in Pods (explicit)
+Pods-ListApp in Pods, depends on:
+Eureka in Pods (explicit)
+ImageRow in Pods (explicit)
+ListApp in ListApp, depends on:
+Pods-ListApp in Pods (implicit dependency via file 'Pods_ListApp.framework' in build phase 'Link Binary')
+Eureka in Pods (implicit dependency via options '-framework Eureka' in build setting 'OTHER_LDFLAGS')
+ImageRow in Pods (implicit dependency via options '-framework ImageRow' in build setting 'OTHER_LDFLAGS')
+Eureka in Pods, no dependencies
+ImageRow in Pods, depends on:
+Eureka in Pods (explicit)
+Pods-ListApp in Pods, depends on:
+Eureka in Pods (explicit)
+ImageRow in Pods (explicit)

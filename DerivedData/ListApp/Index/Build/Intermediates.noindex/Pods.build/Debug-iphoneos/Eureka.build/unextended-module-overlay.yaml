@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/yamazakisota/ListApp/DerivedData/ListApp/Index/Build/Products/Debug-iphoneos/Eureka/Eureka.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/yamazakisota/ListApp/DerivedData/ListApp/Index/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Eureka.build/unextended-module.modulemap",
+    }]
+  }]
+}
