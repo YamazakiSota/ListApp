@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
-options: "b680fac9011e1d5f99f34160e37aee7ffd898189c3ae2759ffac51c6a4d30097"
-build_start_time: [1657129193, 562052965]
-build_end_time: [1657129203, 957272052]
-inputs:
-  "/Users/yamazakisota/ListApp/Pods/ImageRow/Sources/ImageCell.swift": [1657128726, 729753971]
-  "/Users/yamazakisota/ListApp/Pods/ImageRow/Sources/ImagePickerController.swift": [1657128726, 728317499]
-  "/Users/yamazakisota/ListApp/Pods/ImageRow/Sources/ImageRow.swift": [1657128726, 728972434]
